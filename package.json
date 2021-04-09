@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahabDadKhan/Portfolio.git"
+  },
+  "author": "Shahab Dad Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahabDadKhan/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ShahabDadKhan/Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
