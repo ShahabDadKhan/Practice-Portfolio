@@ -97,16 +97,8 @@
       height: 200px;
       background: url("../img/p1.jpg");
       background-size: cover;
-      z-index: 4;
-      backface-visibility: hidden;
-      // top: 0;
       border-radius: 50%;
       border: 3px solid $secondary-color;
-
-      &:hover {
-        transform: scale(1.1);
-        @include easeout;
-      }
     }
   }
 
@@ -137,7 +129,12 @@
     @include easeout;
 
     &:hover {
+      transform: scale(1.1);
       color: $secondary-color;
+    }
+
+    &:active {
+      transform: translateY(5px);
     }
   }
 }
